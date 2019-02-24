@@ -31,6 +31,9 @@
 
 ;; Formatting Settings ;;
 
+;; Disable tool bar
+(tool-bar-mode -1)
+
 ;; Disable startup message and splash screen
 (setq inhibit-startup-message t)
 (setq initial-scratch-message nil)
