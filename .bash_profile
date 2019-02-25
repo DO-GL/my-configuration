@@ -27,4 +27,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 alias tmux="TERM=screen-256color-bce tmux"
-alias config='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
+alias myconfig='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
