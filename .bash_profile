@@ -1,8 +1,6 @@
 # Default prompt
 # export PS1='\u@\H:\w$ '
 
-export PS1='Do@hooli:\w$ '
-
 # Color for files
 export CLICOLOR=1
 export LSCOLORS=exfxcxdxbxegedabagacad
@@ -15,7 +13,7 @@ export TERM="xterm-color"
 # Default Color
 # PS1='\[\e[0;36m\]\u\[\e[0;36m\]@\[\e[0;36m\]\h\[\e[0m\]:\[\e[0;34m\]\w\[\e[0m\]\$ '
 
-PS1='\[\e[1;36m\]Do\[\e[1;36m\]@\[\e[1;36m\]hooli\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
+PS1='\[\e[1;36m\]Do\[\e[1;36m\]@\[\e[1;36m\]hooli\e[0m\]:\[\e[1;32m\]\w\[\e[0m\]\$ '
 
 # Insert Homebrew directory at the top of PATH environment variable
 export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
@@ -28,3 +26,16 @@ export NVM_DIR="$HOME/.nvm"
 
 alias tmux="TERM=screen-256color-bce tmux"
 alias myconfig='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+### iTerm2 Settings ###
+# Print working directory in window bar and tab
+if [ $ITERM_SESSION_ID ]; then
+  DISABLE_AUTO_TITLE="true"
+  echo -ne "\033];${PWD##*/}\007"
+fi
+
+precmd() {
+  echo -ne "\033];${PWD##*/}\007"
+}

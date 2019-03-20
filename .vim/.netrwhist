@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/GabeDo/Projects/xsellco_backup_script/.git'
-let g:netrw_dirhist_2='/Users/GabeDo/Projects/xsellco_env/xsellco_backup_script/.git'
-let g:netrw_dirhist_3='/Volumes/Untitled 1/.fseventsd'
-let g:netrw_dirhist_4='/Volumes/Untitled 1/.Spotlight-V100'
-let g:netrw_dirhist_5='/Users/GabeDo/.vscode'
-let g:netrw_dirhist_6='/Users/GabeDo/Projects/SoDA_Projects/SoDA-Code-Bootcamp-2018'
-let g:netrw_dirhist_7='/Users/GabeDo/Projects/SoDA_Projects/SoDA-Code-Bootcamp-2018/backend'
-let g:netrw_dirhist_8='/Users/GabeDo/.vim'
-let g:netrw_dirhist_9='/Users/GabeDo/Google Drive (gabrield@asu.edu)/2019 Spring Semester/CSE 365 Information Assurance/Programing Assignments/Assignment 1/Assignment 1 Project'
+let g:netrw_dirhist_cnt =0
