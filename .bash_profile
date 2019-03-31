@@ -26,16 +26,3 @@ export NVM_DIR="$HOME/.nvm"
 
 alias tmux="TERM=screen-256color-bce tmux"
 alias myconfig='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
-
-test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
-
-### iTerm2 Settings ###
-# Print working directory in window bar and tab
-if [ $ITERM_SESSION_ID ]; then
-  DISABLE_AUTO_TITLE="true"
-  echo -ne "\033];${PWD##*/}\007"
-fi
-
-precmd() {
-  echo -ne "\033];${PWD##*/}\007"
-}
