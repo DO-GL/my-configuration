@@ -11,9 +11,9 @@ export GREP_OPTIONS='--color=auto'
 # Color for prompt
 export TERM="xterm-color"
 # Default Color
-# PS1='\[\e[0;36m\]\u\[\e[0;36m\]@\[\e[0;36m\]\h\[\e[0m\]:\[\e[0;34m\]\w\[\e[0m\]\$ '
+#PS1='\[\e[0;36m\]\u\[\e[0;36m\]@\[\e[0;36m\]\h\[\e[0m\]:\[\e[0;34m\]\w\[\e[0m\]\$ '
 
-PS1='\[\e[1;36m\]\h\[\e[0m\]:\[\e[1;32m\]\w\[\e[0m\]\$ '
+PS1='\[\e[1;36m\]\u\[\e[1;36m\]@\[\e[1;36m\]\h\[\e[1;0m\]:\[\e[1;32m\]\w\[\e[0m\]\$ '
 
 # Insert Homebrew directory at the top of PATH environment variable
 export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
