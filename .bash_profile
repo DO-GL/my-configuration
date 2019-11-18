@@ -31,3 +31,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 if [ $ITERM_SESSION_ID ]; then
   export PROMPT_COMMAND='echo -ne "\033];${PWD##*/}\007"; ':"$PROMPT_COMMAND";
 fi
+
+# Stop telling me zsh is new default shell
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
