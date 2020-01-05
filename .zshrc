@@ -99,3 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias myconfig='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
+
+# Line to add Anaconda3 to work with zsh
+export PATH="/Users/gldo/opt/anaconda3/bin":$PATH
