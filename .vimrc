@@ -59,11 +59,11 @@ set ruler
 set hlsearch
 set showmatch
 set t_Co=256
-colorscheme zenburn
 highlight clear MatchParen
-highlight MatchParen cterm=bold ctermfg=yellow 
+highlight MatchParen cterm=bold ctermfg=red
 
-set rtp+=~/.vim/bundle/YouCompleteMe
+"colorscheme zenburn
+"highlight MatchParen cterm=bold ctermfg=yellow
 
 filetype plugin indent on
 " show existing tab with 4 spaces width
@@ -73,4 +73,5 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 set ai
+
 
