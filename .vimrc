@@ -1,6 +1,8 @@
 set backspace=indent,eol,start
 syntax on
 
+colorscheme peachpuff 
+
 set number
 set ruler
 set hlsearch
