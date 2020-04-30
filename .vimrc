@@ -1,9 +1,6 @@
 set backspace=indent,eol,start
 syntax on
-<<<<<<< HEAD
 colorscheme peachpuff 
-=======
->>>>>>> a7b8cc6871b4443ffe7e5f78d634445d2f276973
 
 set number
 set ruler
