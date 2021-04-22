@@ -1,6 +1,6 @@
 set backspace=indent,eol,start
 syntax on
-colorscheme peachpuff 
+colorscheme slate 
 
 set number
 set ruler
@@ -24,3 +24,5 @@ set shiftwidth=4
 set expandtab
 set ai
 
+" Python 79 char per line format PEP-8
+set colorcolumn=79
