@@ -17,7 +17,6 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set textwidth=79
-set signcolumn=yes
 
 set ai
 highlight clear MatchParen
